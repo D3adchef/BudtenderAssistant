@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budtender Product Lookup</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --card-bg: #1f1f1f;
+      --text: #f0f0f0;
+      --accent: #ff4f4f;
+      --border: #444;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 1rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--accent);
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .controls select,
+    .controls input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      background: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      flex: 1 1 150px;
+      min-width: 140px;
+    }
+
+    .product-list {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .product {
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-size: 0.95rem;
+      word-wrap: break-word;
+    }
+
+    @media (max-width: 480px) {
+      .product {
+        font-size: 0.88rem;
+      }
+
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Budtender Product Lookup</h1>
+
+  <div class="controls">
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Flower">Flower</option>
+      <option value="Concentrates">Concentrates</option>
+      <option value="Edibles">Edibles</option>
+      <option value="Tinctures">Tinctures</option>
+      <option value="Vapes">Vapes</option>
+      <option value="POD">POD</option>
+      <option value="Pre-Roll">Pre-Roll</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Search by strain name...">
+  </div>
+
+  <div class="product-list" id="productList"></div>
+
+  <script>
+    let products = [];
+
+    // Change this filename to the specific JSON file you want to test:
+    fetch('products/Flower.json')
+      .then(response => response.json())
+      .then(data => {
+        products = data;
+        renderProducts();
+      });
+
+    const renderProducts = () => {
+      const list = document.getElementById('productList');
+      const category = document.getElementById('categoryFilter').value.toLowerCase();
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      list.innerHTML = '';
+
+      products
+        .filter(p => (!category || p.category.toLowerCase() === category))
+        .filter(p => p.strain.toLowerCase().includes(search))
+        .forEach(p => {
+          const div = document.createElement('div');
+          div.className = 'product';
+          div.innerHTML = `
+            <strong>${p.strain}</strong><br>
+            <em>${p.company}</em><br>
+            <small>Type: ${p.type} | Category: ${p.category}</small><br>
+            THC: ${p.thc || 'N/A'} | CBD: ${p.cbd || 'N/A'}<br>
+            ${p.cbn ? `CBN: ${p.cbn}` : ''} ${p.terpenes ? `| Terpenes: ${p.terpenes}` : ''}<br>
+            Linked: ${p.linked_forms?.join(', ') || 'N/A'}<br>
+            Suggested: ${p.substitutes?.join(', ') || 'None'}
+          `;
+          list.appendChild(div);
+        });
+    };
+
+    document.getElementById('categoryFilter').addEventListener('change', renderProducts);
+    document.getElementById('searchInput').addEventListener('input', renderProducts);
+  </script>
+</body>
+</html>

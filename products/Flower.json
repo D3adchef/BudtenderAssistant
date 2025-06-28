@@ -1,0 +1,586 @@
+[
+  {
+    "strain": "Cascilla Kush Mints",
+    "company": "Rock River Ranch",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "27.51%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Kosher Dawg",
+    "company": "New Altitude Farms",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "29.89%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Chikitaz",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.28%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Jelly Breath",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "26.24%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Sherb Cream Pie",
+    "company": "The Naturalist Solution",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "27.94%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Cherry Cobbler | Popcorn",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "20.35%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Something Sticky",
+    "company": "Sticky Treez",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "24.39%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Ice Cream Cake",
+    "company": "River Remedy",
+    "type": "",
+    "category": "Flower",
+    "thc": "28.42%",
+    "cbd": ""
+  },
+  {
+    "strain": "Bacio Gelato",
+    "company": "Pure Mississippi Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "24.02%",
+    "cbd": ""
+  },
+  {
+    "strain": "Gelato 41",
+    "company": "River Remedy",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "28.1%",
+    "cbd": ""
+  },
+  {
+    "strain": "Orange Mintz",
+    "company": "Space Mountain",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "15.52%",
+    "cbd": "0.1%"
+  },
+  {
+    "strain": "Scented Marker",
+    "company": "Kind Life Companies",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "22.03%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Hippie Crasher",
+    "company": "",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "25.27%",
+    "cbd": "0.13%"
+  },
+  {
+    "strain": "Nimbus Snacks",
+    "company": "SoCrop",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "24.01%",
+    "cbd": ""
+  },
+  {
+    "strain": "Tropical Funk",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "19.13%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "$100 OG",
+    "company": "Space Mountain",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "21.87%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Oreoz Blizzard",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "17.93%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Strawberry Bubbles",
+    "company": "Mockingbird Cannabis",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "20.1%",
+    "cbd": ""
+  },
+  {
+    "strain": "Plum Crazy",
+    "company": "GRUV",
+    "type": "",
+    "category": "Flower",
+    "thc": "27.69%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Citrus Cake Pop",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "16.7%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Blue Dew",
+    "company": "Delta Bud Co.",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "26.3%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Illemonati",
+    "company": "Apotha",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "",
+    "cbd": ""
+  },
+  {
+    "strain": "Berry Blender",
+    "company": "Delta Bud Co.",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "21.65%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Black Cherry Gelato",
+    "company": "Cookies",
+    "type": "",
+    "category": "Flower",
+    "thc": "22.38%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Rainbow Belts",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "19.72%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Black Ice",
+    "company": "Southern Crop",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "25.17%",
+    "cbd": ""
+  },
+  {
+    "strain": "Zlushie",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "21.26%",
+    "cbd": "0.03%"
+  },
+  {
+    "strain": "Thicc Mintz",
+    "company": "GRUV",
+    "type": "",
+    "category": "Flower",
+    "thc": "27.67%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Mississippi Kush",
+    "company": "GRUV",
+    "type": "",
+    "category": "Flower",
+    "thc": "26.79%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Lemon Royale",
+    "company": "GRUV",
+    "type": "",
+    "category": "Flower",
+    "thc": "24.36%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Pancake Ice Cream Cake",
+    "company": "Southern Crop",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "18.25%",
+    "cbd": ""
+  },
+  {
+    "strain": "Jelly Donut",
+    "company": "Southern Crop",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.77%",
+    "cbd": ""
+  },
+  {
+    "strain": "Jack Herer",
+    "company": "Big River Cannabis",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "19.18%",
+    "cbd": ""
+  },
+  {
+    "strain": "Peanut Butter Mintz",
+    "company": "Big River Cannabis",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "27.32%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Bubba Fett",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "20.67%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Strawberry Cheesecake",
+    "company": "Southern Crop",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "23.8%",
+    "cbd": ""
+  },
+  {
+    "strain": "Slurty 3",
+    "company": "Kind Life Companies",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "28.31%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Gary Payton",
+    "company": "Cookies",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "26.04%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Member OG",
+    "company": "Big River Cannabis",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "25.13%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Papaya",
+    "company": "Good Day Farm",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "22.14%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "The Glove",
+    "company": "Cookies",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "22.55%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Cement Shoes",
+    "company": "Big River Cannabis",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "18.1%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Motorbreath",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "27.47%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Grape Cream Cake",
+    "company": "Big River Cannabis",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "22.61%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Tiger Bomb",
+    "company": "Sticky Treez",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "26.59%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Blueberry Skunk",
+    "company": "Sticky Treez",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "24.19%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Spiked Mai Tai",
+    "company": "Southern Crop",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "22.18%",
+    "cbd": ""
+  },
+  {
+    "strain": "Blue Gummy",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "21.48%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Lilac Diesel",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "20.59%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Tropicana Cookies",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.45%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Sour Dubb",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "17.98%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Mint Sherbet",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "19.83%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Ghost Dawg",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "19.28%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Purple Chem",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "19.38%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "White Durban",
+    "company": "New Altitude Farms",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "21.6%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Tangerine Power",
+    "company": "New Altitude Farms",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "20.67%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Ghost Dawg Smalls",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "20.57%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Jelly Rancher Smalls",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.88%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Lilac Diesel Smalls",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "20.13%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Motorbreath Smalls",
+    "company": "New Altitude Farms",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "24.8%",
+    "cbd": "0.04%"
+  },
+  {
+    "strain": "Tropicana Cookies Smalls",
+    "company": "New Altitude Farms",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.64%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "White Durban Smalls",
+    "company": "New Altitude Farms",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "22.14%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Cement Shoes Smalls",
+    "company": "Big River Cannabis",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "18.19%",
+    "cbd": "0.09%"
+  },
+  {
+    "strain": "Papaya Smalls",
+    "company": "Good Day Farm",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "22.34%",
+    "cbd": "0.03%"
+  },
+  {
+    "strain": "Member OG Smalls",
+    "company": "Big River Cannabis",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "25.03%",
+    "cbd": "0.03%"
+  },
+  {
+    "strain": "The Glove Smalls",
+    "company": "Cookies",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "22.78%",
+    "cbd": "0.07%"
+  },
+  {
+    "strain": "Gary Payton Smalls",
+    "company": "Cookies",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "26.02%",
+    "cbd": "0.05%"
+  },
+  {
+    "strain": "Slurty 3 Smalls",
+    "company": "Kind Life Companies",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "27.78%",
+    "cbd": "0.06%"
+  },
+  {
+    "strain": "Strawberry Cheesecake Smalls",
+    "company": "Southern Crop",
+    "type": "Indica",
+    "category": "Flower",
+    "thc": "23.55%",
+    "cbd": ""
+  },
+  {
+    "strain": "Bubba Fett Smalls",
+    "company": "Good Day Farm",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "20.82%",
+    "cbd": "0.03%"
+  },
+  {
+    "strain": "Peanut Butter Mintz Smalls",
+    "company": "Big River Cannabis",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "27.23%",
+    "cbd": "0.08%"
+  },
+  {
+    "strain": "Jack Herer Smalls",
+    "company": "Big River Cannabis",
+    "type": "Sativa",
+    "category": "Flower",
+    "thc": "19.34%",
+    "cbd": ""
+  },
+  {
+    "strain": "Jelly Donut Smalls",
+    "company": "Southern Crop",
+    "type": "Hybrid",
+    "category": "Flower",
+    "thc": "18.57%",
+    "cbd": ""
+  }
+]
