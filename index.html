@@ -5,71 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Budtender Product Lookup</title>
   <style>
-    :root {
-      --bg: #121212;
-      --card-bg: #1f1f1f;
-      --text: #f0f0f0;
-      --accent: #ff4f4f;
-      --border: #444;
-    }
-
     body {
       font-family: Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
+      background: #121212;
+      color: #f0f0f0;
       padding: 1rem;
+      margin: 0;
     }
 
     h1 {
       text-align: center;
-      color: var(--accent);
-      font-size: 1.6rem;
-      margin-bottom: 1rem;
+      color: #ff4f4f;
+    }
+
+    .menu-toggle {
+      display: none;
+      background: #1f1f1f;
+      border: 1px solid #444;
+      color: #f0f0f0;
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      margin: 0 auto 1rem;
+      border-radius: 5px;
     }
 
     .controls {
       display: flex;
+      gap: 1rem;
       flex-wrap: wrap;
-      gap: 0.5rem;
       justify-content: center;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
-    .controls select,
-    .controls input {
-      padding: 0.5rem;
-      font-size: 1rem;
-      background: var(--card-bg);
-      color: var(--text);
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      flex: 1 1 150px;
-      min-width: 140px;
+    .controls.hidden {
+      display: none;
     }
 
     .product-list {
       display: grid;
       gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .product {
-      background: var(--card-bg);
+      background: #1f1f1f;
       padding: 1rem;
       border-radius: 8px;
-      border: 1px solid var(--border);
-      font-size: 0.95rem;
-      word-wrap: break-word;
+      border: 1px solid #444;
     }
 
-    @media (max-width: 480px) {
-      .product {
-        font-size: 0.88rem;
-      }
+    select, input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      background: #1f1f1f;
+      color: #f0f0f0;
+      border: 1px solid #555;
+    }
 
-      h1 {
-        font-size: 1.3rem;
+    @media (max-width: 600px) {
+      .menu-toggle {
+        display: block;
+      }
+      .controls {
+        flex-direction: column;
+        align-items: center;
       }
     }
   </style>
@@ -77,16 +77,14 @@
 <body>
   <h1>Budtender Product Lookup</h1>
 
-  <div class="controls">
+  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+  <div class="controls" id="controls">
     <select id="categoryFilter">
-      <option value="">All Categories</option>
       <option value="Flower">Flower</option>
-      <option value="Concentrates">Concentrates</option>
-      <option value="Edibles">Edibles</option>
-      <option value="Tinctures">Tinctures</option>
+      <option value="PreRolls">Pre-Roll</option>
       <option value="Vapes">Vapes</option>
-      <option value="POD">POD</option>
-      <option value="Pre-Roll">Pre-Roll</option>
+      <option value="Edibles">Edibles</option>
     </select>
     <input type="text" id="searchInput" placeholder="Search by strain name...">
   </div>
@@ -96,22 +94,22 @@
   <script>
     let products = [];
 
-    // Change this filename to the specific JSON file you want to test:
-    fetch('products/Flower.json')
-      .then(response => response.json())
-      .then(data => {
-        products = data;
-        renderProducts();
-      });
+    const loadProducts = (category = 'Flower') => {
+      const fileName = `products/${category}.json`;
+      fetch(fileName)
+        .then(response => response.json())
+        .then(data => {
+          products = data;
+          renderProducts();
+        });
+    };
 
     const renderProducts = () => {
       const list = document.getElementById('productList');
-      const category = document.getElementById('categoryFilter').value.toLowerCase();
       const search = document.getElementById('searchInput').value.toLowerCase();
       list.innerHTML = '';
 
       products
-        .filter(p => (!category || p.category.toLowerCase() === category))
         .filter(p => p.strain.toLowerCase().includes(search))
         .forEach(p => {
           const div = document.createElement('div');
@@ -129,8 +127,20 @@
         });
     };
 
-    document.getElementById('categoryFilter').addEventListener('change', renderProducts);
+    const toggleMenu = () => {
+      const controls = document.getElementById('controls');
+      controls.classList.toggle('hidden');
+    };
+
+    document.getElementById('categoryFilter').addEventListener('change', e => {
+      const category = e.target.value;
+      loadProducts(category);
+    });
+
     document.getElementById('searchInput').addEventListener('input', renderProducts);
+
+    // Load initial products
+    loadProducts('Flower');
   </script>
 </body>
 </html>
